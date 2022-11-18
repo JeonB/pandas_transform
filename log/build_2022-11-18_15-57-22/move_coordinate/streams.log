@@ -1,0 +1,16 @@
+[0.031s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[5.765s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In lambda function:
+[5.765s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:26:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[5.765s]    26 |     std::cin >> msg.position.x >> msg.position.y >> msg.position.z[01;31m[K [m[K[32m[Kreturn[m[K msg;
+[5.765s]       |                                                                   [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[5.765s]       |                                                                   [32m[K;[m[K
+[5.765s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.766s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:21:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst void target_pose[m[K’ has incomplete type
+[5.766s]    21 |   auto const [01;31m[Ktarget_pose[m[K = []
+[5.766s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[8.293s] gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
+[8.293s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+[8.294s] gmake: *** [Makefile:146: all] Error 2
+[8.296s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4

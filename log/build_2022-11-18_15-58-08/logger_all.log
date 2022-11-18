@@ -1,0 +1,200 @@
+[0.451s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'desktop_notification-', 'status-', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.451s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=['desktop_notification-', 'status-'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f2e7f2eadd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2e7fcbe020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2e7fcbe020>>, mixin_verb=('build',))
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.481s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/suresoft/transform'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_coordinate) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_coordinate' with type 'ros.ament_cmake' and name 'move_coordinate'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/quick_start) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quick_start' with type 'ros.ament_cmake' and name 'quick_start'
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.546s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/suresoft/transform/install
+[0.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'cmake_clean_first' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'cmake_force_configure' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'ament_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'move_coordinate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.624s] DEBUG:colcon.colcon_core.verb:Building package 'move_coordinate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suresoft/transform/build/move_coordinate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suresoft/transform/install/move_coordinate', 'merge_install': False, 'path': '/home/suresoft/transform/src/move_coordinate', 'symlink_install': False, 'test_result_base': None}
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'quick_start' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'quick_start' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suresoft/transform/build/quick_start', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suresoft/transform/install/quick_start', 'merge_install': False, 'path': '/home/suresoft/transform/src/quick_start', 'symlink_install': False, 'test_result_base': None}
+[0.630s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.640s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suresoft/transform/src/move_coordinate' with build type 'ament_cmake'
+[0.640s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suresoft/transform/src/move_coordinate'
+[0.649s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suresoft/transform/src/quick_start' with build type 'ament_cmake'
+[0.656s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suresoft/transform/src/quick_start'
+[0.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quick_start)
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start' for CMake module files
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start' for CMake config files
+[0.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('quick_start', 'cmake_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/quick_start/share/quick_start/hook/cmake_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suresoft/transform/install/quick_start/share/quick_start/hook/cmake_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/quick_start/share/quick_start/hook/cmake_prefix_path.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/lib/pkgconfig/quick_start.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/lib/python3.10/site-packages'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/bin'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suresoft/transform/install/quick_start/share/quick_start/package.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.sh'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.bash'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.zsh'
+[0.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suresoft/transform/install/quick_start/share/colcon-core/packages/quick_start)
+[0.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quick_start)
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start' for CMake module files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start' for CMake config files
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('quick_start', 'cmake_prefix_path')
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/quick_start/share/quick_start/hook/cmake_prefix_path.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suresoft/transform/install/quick_start/share/quick_start/hook/cmake_prefix_path.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/quick_start/share/quick_start/hook/cmake_prefix_path.sh'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/bin'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/lib/pkgconfig/quick_start.pc'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/lib/python3.10/site-packages'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/quick_start/bin'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suresoft/transform/install/quick_start/share/quick_start/package.dsv'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.sh'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.bash'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/quick_start/share/quick_start/package.zsh'
+[0.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suresoft/transform/install/quick_start/share/colcon-core/packages/quick_start)
+[10.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[10.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/move_coordinate
+[10.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_coordinate)
+[10.520s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate' for CMake module files
+[10.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/move_coordinate
+[10.521s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate' for CMake config files
+[10.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_coordinate', 'cmake_prefix_path')
+[10.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/hook/cmake_prefix_path.ps1'
+[10.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/hook/cmake_prefix_path.dsv'
+[10.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/hook/cmake_prefix_path.sh'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/lib'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/bin'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/lib/pkgconfig/move_coordinate.pc'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/lib/python3.10/site-packages'
+[10.530s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/bin'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.ps1'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv'
+[10.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.sh'
+[10.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.bash'
+[10.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.zsh'
+[10.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suresoft/transform/install/move_coordinate/share/colcon-core/packages/move_coordinate)
+[10.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_coordinate)
+[10.567s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate' for CMake module files
+[10.568s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate' for CMake config files
+[10.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_coordinate', 'cmake_prefix_path')
+[10.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/hook/cmake_prefix_path.ps1'
+[10.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/hook/cmake_prefix_path.dsv'
+[10.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/hook/cmake_prefix_path.sh'
+[10.572s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/lib'
+[10.572s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/bin'
+[10.572s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/lib/pkgconfig/move_coordinate.pc'
+[10.573s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/lib/python3.10/site-packages'
+[10.573s] Level 1:colcon.colcon_core.environment:checking '/home/suresoft/transform/install/move_coordinate/bin'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.ps1'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.sh'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.bash'
+[10.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.zsh'
+[10.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suresoft/transform/install/move_coordinate/share/colcon-core/packages/move_coordinate)
+[10.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.579s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.580s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.585s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suresoft/transform/install/local_setup.ps1'
+[10.586s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suresoft/transform/install/_local_setup_util_ps1.py'
+[10.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suresoft/transform/install/setup.ps1'
+[10.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suresoft/transform/install/local_setup.sh'
+[10.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suresoft/transform/install/_local_setup_util_sh.py'
+[10.590s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suresoft/transform/install/setup.sh'
+[10.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suresoft/transform/install/local_setup.bash'
+[10.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suresoft/transform/install/setup.bash'
+[10.597s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suresoft/transform/install/local_setup.zsh'
+[10.598s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suresoft/transform/install/setup.zsh'

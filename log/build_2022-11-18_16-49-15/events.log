@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (move_coordinate) JobQueued: {'identifier': 'move_coordinate', 'dependencies': OrderedDict()}
+[0.000176] (quick_start) JobQueued: {'identifier': 'quick_start', 'dependencies': OrderedDict()}
+[0.000223] (move_coordinate) JobStarted: {'identifier': 'move_coordinate'}
+[0.014981] (quick_start) JobStarted: {'identifier': 'quick_start'}
+[0.026497] (move_coordinate) JobProgress: {'identifier': 'move_coordinate', 'progress': 'cmake'}
+[0.027673] (move_coordinate) JobProgress: {'identifier': 'move_coordinate', 'progress': 'build'}
+[0.028654] (move_coordinate) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/suresoft/transform/build/move_coordinate', '--', '-j4', '-l4'], 'cwd': '/home/suresoft/transform/build/move_coordinate', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suresoft'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suresoft'), ('OLDPWD', '/home/suresoft'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1559'), ('SYSTEMD_EXEC_PID', '1799'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22724'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/suresoft/transform/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suresoft'), ('JOURNAL_STREAM', '8:33349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'suresoft'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/suresoft/.local/bin:/opt/ros/humble/bin:/home/suresoft/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/suresoft-14ZD970-EX70K:@/tmp/.ICE-unix/1780,unix/suresoft-14ZD970-EX70K:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '66fdfe5548194e35b2e3614245a1051d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e57620df-c456-4fc5-a161-c09476b8a26f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/suresoft/transform/build/move_coordinate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble')]), 'shell': False}
+[0.035412] (quick_start) JobProgress: {'identifier': 'quick_start', 'progress': 'cmake'}
+[0.036902] (quick_start) JobProgress: {'identifier': 'quick_start', 'progress': 'build'}
+[0.038157] (quick_start) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/suresoft/transform/build/quick_start', '--', '-j4', '-l4'], 'cwd': '/home/suresoft/transform/build/quick_start', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suresoft'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suresoft'), ('OLDPWD', '/home/suresoft'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1559'), ('SYSTEMD_EXEC_PID', '1799'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22724'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/suresoft/transform/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suresoft'), ('JOURNAL_STREAM', '8:33349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'suresoft'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/suresoft/.local/bin:/opt/ros/humble/bin:/home/suresoft/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/suresoft-14ZD970-EX70K:@/tmp/.ICE-unix/1780,unix/suresoft-14ZD970-EX70K:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '66fdfe5548194e35b2e3614245a1051d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e57620df-c456-4fc5-a161-c09476b8a26f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/suresoft/transform/build/quick_start'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble')]), 'shell': False}
+[0.079982] (move_coordinate) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_coordinate\x1b[0m\n'}
+[0.082883] (quick_start) CommandEnded: {'returncode': 0}
+[0.098446] (-) TimerEvent: {}
+[0.105063] (quick_start) JobProgress: {'identifier': 'quick_start', 'progress': 'install'}
+[0.113891] (quick_start) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/suresoft/transform/build/quick_start'], 'cwd': '/home/suresoft/transform/build/quick_start', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suresoft'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suresoft'), ('OLDPWD', '/home/suresoft'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1559'), ('SYSTEMD_EXEC_PID', '1799'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22724'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/suresoft/transform/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suresoft'), ('JOURNAL_STREAM', '8:33349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'suresoft'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/suresoft/.local/bin:/opt/ros/humble/bin:/home/suresoft/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/suresoft-14ZD970-EX70K:@/tmp/.ICE-unix/1780,unix/suresoft-14ZD970-EX70K:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '66fdfe5548194e35b2e3614245a1051d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e57620df-c456-4fc5-a161-c09476b8a26f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/suresoft/transform/build/quick_start'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble')]), 'shell': False}
+[0.115772] (move_coordinate) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o\x1b[0m\n'}
+[0.125134] (quick_start) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.126010] (quick_start) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.126679] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/demo.launch.py\n'}
+[0.126915] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_hello_moveit.rviz\n'}
+[0.127098] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_moveit_config_demo.rviz\n'}
+[0.127271] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_moveit_config_demo_empty.rviz\n'}
+[0.127543] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/package_run_dependencies/quick_start\n'}
+[0.128000] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/parent_prefix_path/quick_start\n'}
+[0.128198] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/ament_prefix_path.sh\n'}
+[0.128441] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/ament_prefix_path.dsv\n'}
+[0.128711] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/path.sh\n'}
+[0.128970] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/path.dsv\n'}
+[0.129231] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.bash\n'}
+[0.129495] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.sh\n'}
+[0.129751] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.zsh\n'}
+[0.130184] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.dsv\n'}
+[0.130425] (quick_start) StdoutLine: {'line': b'-- Symlinking: /home/suresoft/transform/install/quick_start/share/quick_start/package.dsv\n'}
+[0.140593] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/packages/quick_start\n'}
+[0.140865] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.141201] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.141445] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/quick_startConfig.cmake\n'}
+[0.141675] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/quick_startConfig-version.cmake\n'}
+[0.142020] (quick_start) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/package.xml\n'}
+[0.144986] (quick_start) CommandEnded: {'returncode': 0}
+[0.198569] (-) TimerEvent: {}
+[0.237399] (quick_start) JobEnded: {'identifier': 'quick_start', 'rc': 0}
+[0.298670] (-) TimerEvent: {}
+[0.398891] (-) TimerEvent: {}
+[0.499099] (-) TimerEvent: {}
+[0.599446] (-) TimerEvent: {}
+[0.699848] (-) TimerEvent: {}
+[0.800058] (-) TimerEvent: {}
+[0.900263] (-) TimerEvent: {}
+[1.000513] (-) TimerEvent: {}
+[1.100732] (-) TimerEvent: {}
+[1.200943] (-) TimerEvent: {}
+[1.301175] (-) TimerEvent: {}
+[1.401399] (-) TimerEvent: {}
+[1.501585] (-) TimerEvent: {}
+[1.601831] (-) TimerEvent: {}
+[1.702061] (-) TimerEvent: {}
+[1.802277] (-) TimerEvent: {}
+[1.902587] (-) TimerEvent: {}
+[2.002778] (-) TimerEvent: {}
+[2.102990] (-) TimerEvent: {}
+[2.203185] (-) TimerEvent: {}
+[2.303440] (-) TimerEvent: {}
+[2.403801] (-) TimerEvent: {}
+[2.504101] (-) TimerEvent: {}
+[2.604336] (-) TimerEvent: {}
+[2.704567] (-) TimerEvent: {}
+[2.804799] (-) TimerEvent: {}
+[2.905038] (-) TimerEvent: {}
+[3.005259] (-) TimerEvent: {}
+[3.105577] (-) TimerEvent: {}
+[3.205993] (-) TimerEvent: {}
+[3.306266] (-) TimerEvent: {}
+[3.406718] (-) TimerEvent: {}
+[3.507071] (-) TimerEvent: {}
+[3.607308] (-) TimerEvent: {}
+[3.707527] (-) TimerEvent: {}
+[3.807777] (-) TimerEvent: {}
+[3.908070] (-) TimerEvent: {}
+[4.008312] (-) TimerEvent: {}
+[4.108511] (-) TimerEvent: {}
+[4.208752] (-) TimerEvent: {}
+[4.308982] (-) TimerEvent: {}
+[4.409214] (-) TimerEvent: {}
+[4.509428] (-) TimerEvent: {}
+[4.609643] (-) TimerEvent: {}
+[4.709855] (-) TimerEvent: {}
+[4.810094] (-) TimerEvent: {}
+[4.910302] (-) TimerEvent: {}
+[5.010537] (-) TimerEvent: {}
+[5.110771] (-) TimerEvent: {}
+[5.210998] (-) TimerEvent: {}
+[5.311186] (-) TimerEvent: {}
+[5.411398] (-) TimerEvent: {}
+[5.511628] (-) TimerEvent: {}
+[5.611886] (-) TimerEvent: {}
+[5.712115] (-) TimerEvent: {}
+[5.812322] (-) TimerEvent: {}
+[5.912522] (-) TimerEvent: {}
+[6.013725] (-) TimerEvent: {}
+[6.114409] (-) TimerEvent: {}
+[6.214639] (-) TimerEvent: {}
+[6.314872] (-) TimerEvent: {}
+[6.415106] (-) TimerEvent: {}
+[6.515424] (-) TimerEvent: {}
+[6.615945] (-) TimerEvent: {}
+[6.716475] (-) TimerEvent: {}
+[6.816946] (-) TimerEvent: {}
+[6.917141] (-) TimerEvent: {}
+[7.017354] (-) TimerEvent: {}
+[7.117570] (-) TimerEvent: {}
+[7.217778] (-) TimerEvent: {}
+[7.317986] (-) TimerEvent: {}
+[7.418190] (-) TimerEvent: {}
+[7.518394] (-) TimerEvent: {}
+[7.618609] (-) TimerEvent: {}
+[7.718833] (-) TimerEvent: {}
+[7.819029] (-) TimerEvent: {}
+[7.919233] (-) TimerEvent: {}
+[8.019431] (-) TimerEvent: {}
+[8.119624] (-) TimerEvent: {}
+[8.219820] (-) TimerEvent: {}
+[8.320018] (-) TimerEvent: {}
+[8.420211] (-) TimerEvent: {}
+[8.520413] (-) TimerEvent: {}
+[8.620615] (-) TimerEvent: {}
+[8.720837] (-) TimerEvent: {}
+[8.821057] (-) TimerEvent: {}
+[8.921258] (-) TimerEvent: {}
+[9.021464] (-) TimerEvent: {}
+[9.121685] (-) TimerEvent: {}
+[9.221899] (-) TimerEvent: {}
+[9.322118] (-) TimerEvent: {}
+[9.422326] (-) TimerEvent: {}
+[9.522567] (-) TimerEvent: {}
+[9.622766] (-) TimerEvent: {}
+[9.722973] (-) TimerEvent: {}
+[9.823182] (-) TimerEvent: {}
+[9.923445] (-) TimerEvent: {}
+[10.023675] (-) TimerEvent: {}
+[10.123875] (-) TimerEvent: {}
+[10.224083] (-) TimerEvent: {}
+[10.324288] (-) TimerEvent: {}
+[10.424498] (-) TimerEvent: {}
+[10.524698] (-) TimerEvent: {}
+[10.624934] (-) TimerEvent: {}
+[10.725152] (-) TimerEvent: {}
+[10.825351] (-) TimerEvent: {}
+[10.925550] (-) TimerEvent: {}
+[11.025774] (-) TimerEvent: {}
+[11.125993] (-) TimerEvent: {}
+[11.226210] (-) TimerEvent: {}
+[11.271765] (move_coordinate) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_coordinate\x1b[0m\n'}
+[11.326337] (-) TimerEvent: {}
+[11.426594] (-) TimerEvent: {}
+[11.526803] (-) TimerEvent: {}
+[11.568748] (move_coordinate) StdoutLine: {'line': b'[100%] Built target move_coordinate\n'}
+[11.580831] (move_coordinate) CommandEnded: {'returncode': 0}
+[11.604728] (move_coordinate) JobProgress: {'identifier': 'move_coordinate', 'progress': 'install'}
+[11.605372] (move_coordinate) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/suresoft/transform/build/move_coordinate'], 'cwd': '/home/suresoft/transform/build/move_coordinate', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suresoft'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suresoft'), ('OLDPWD', '/home/suresoft'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1559'), ('SYSTEMD_EXEC_PID', '1799'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22724'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/suresoft/transform/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suresoft'), ('JOURNAL_STREAM', '8:33349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'suresoft'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/suresoft/.local/bin:/opt/ros/humble/bin:/home/suresoft/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/suresoft-14ZD970-EX70K:@/tmp/.ICE-unix/1780,unix/suresoft-14ZD970-EX70K:/tmp/.ICE-unix/1780'), ('INVOCATION_ID', '66fdfe5548194e35b2e3614245a1051d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e57620df-c456-4fc5-a161-c09476b8a26f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/suresoft/transform/build/move_coordinate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/suresoft/transform/install/move_coordinate:/home/suresoft/transform/install/quick_start:/home/suresoft/transform/install/hello_moveit:/opt/ros/humble')]), 'shell': False}
+[11.612854] (move_coordinate) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[11.613131] (move_coordinate) StdoutLine: {'line': b'-- Installing: /home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate\n'}
+[11.613687] (move_coordinate) StdoutLine: {'line': b'-- Set runtime path of "/home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate" to ""\n'}
+[11.613899] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/package_run_dependencies/move_coordinate\n'}
+[11.614122] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/parent_prefix_path/move_coordinate\n'}
+[11.614316] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.sh\n'}
+[11.614529] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.dsv\n'}
+[11.614694] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.sh\n'}
+[11.614882] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.dsv\n'}
+[11.615053] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.bash\n'}
+[11.615187] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.sh\n'}
+[11.615306] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.zsh\n'}
+[11.615423] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.dsv\n'}
+[11.615537] (move_coordinate) StdoutLine: {'line': b'-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv\n'}
+[11.615651] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/packages/move_coordinate\n'}
+[11.615764] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig.cmake\n'}
+[11.615880] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig-version.cmake\n'}
+[11.615994] (move_coordinate) StdoutLine: {'line': b'-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.xml\n'}
+[11.616942] (move_coordinate) CommandEnded: {'returncode': 0}
+[11.626954] (-) TimerEvent: {}
+[11.688599] (move_coordinate) JobEnded: {'identifier': 'move_coordinate', 'rc': 0}
+[11.689303] (-) EventReactorShutdown: {}

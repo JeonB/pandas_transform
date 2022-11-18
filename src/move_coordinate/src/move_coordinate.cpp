@@ -1,5 +1,5 @@
 #include <memory>
-
+#include <iostream>
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 
@@ -17,36 +17,39 @@ int main(int argc, char *argv[])
   using moveit::planning_interface::MoveGroupInterface;
   auto move_group_interface = MoveGroupInterface(node, "panda_arm");
 
-  // Set a target Pose
-  auto const target_pose = []
+  while (true)
   {
-    geometry_msgs::msg::Pose msg;
-    msg.orientation.w = 1.0;
-    msg.position.x = 0.28;
-    msg.position.y = -0.2;
-    msg.position.z = 0.5;
-    return msg;
-  }();
-  move_group_interface.setPoseTarget(target_pose);
 
-  // Create a plan to that target pose
-  auto const [success, plan] = [&move_group_interface]
-  {
-    moveit::planning_interface::MoveGroupInterface::Plan msg;
-    auto const ok = static_cast<bool>(move_group_interface.plan(msg));
-    return std::make_pair(ok, msg);
-  }();
+    // Set a target Pose
+    auto const target_pose = []
+    {
+      geometry_msgs::msg::Pose msg;
+      msg.orientation.w = 1.0;
+      std::cout << "좌표 입력 :";
+      std::cin.clear();
+      std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
+      return msg;
+    }();
+    move_group_interface.setPoseTarget(target_pose);
 
-  // Execute the plan
-  if (success)
-  {
-    move_group_interface.execute(plan);
+    // Create a plan to that target pose
+    auto const [success, plan] = [&move_group_interface]
+    {
+      moveit::planning_interface::MoveGroupInterface::Plan msg;
+      auto const ok = static_cast<bool>(move_group_interface.plan(msg));
+      return std::make_pair(ok, msg);
+    }();
+
+    // Execute the plan
+    if (success)
+    {
+      move_group_interface.execute(plan);
+    }
+    else
+    {
+      RCLCPP_ERROR(logger, "Planning failed!");
+    }
   }
-  else
-  {
-    RCLCPP_ERROR(logger, "Planning failed!");
-  }
-
   // Shutdown ROS
   rclcpp::shutdown();
   return 0;

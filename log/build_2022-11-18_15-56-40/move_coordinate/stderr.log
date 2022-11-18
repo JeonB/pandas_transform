@@ -1,0 +1,15 @@
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In lambda function:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:25:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+   25 |     std::[01;31m[K([m[K"좌표 입력 ");
+      |          [01;31m[K^[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:26:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   26 |     std::cin >> msg.position.x >> msg.position.y >> msg.position.z[01;31m[K [m[K[32m[Kreturn[m[K msg;
+      |                                                                   [01;31m[K^[m[K[32m[K~~~~~~[m[K
+      |                                                                   [32m[K;[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:21:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst void target_pose[m[K’ has incomplete type
+   21 |   auto const [01;31m[Ktarget_pose[m[K = []
+      |              [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
