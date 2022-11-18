@@ -1,0 +1,57 @@
+[0.034s] Invoking command in '/home/suresoft/transform/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/suresoft/transform/src/hello_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suresoft/transform/install/hello_moveit
+[0.100s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.314s] -- Found moveit_ros_planning_interface: 2.5.3 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.339s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.394s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.399s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.608s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.622s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.708s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.710s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.034s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.220s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.846s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.458s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.759s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.245s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.347s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.347s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/suresoft/transform/src/hello_moveit/include>
+[4.347s] -- Configured cppcheck exclude dirs and/or files: 
+[4.348s] -- Added test 'lint_cmake' to check CMake code style
+[4.349s] -- Added test 'uncrustify' to check C / C++ code style
+[4.349s] -- Configured uncrustify additional arguments: 
+[4.349s] -- Added test 'xmllint' to check XML markup files
+[4.352s] -- Configuring done
+[4.416s] -- Generating done
+[4.419s] -- Build files have been written to: /home/suresoft/transform/build/hello_moveit
+[4.430s] Invoked command in '/home/suresoft/transform/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/suresoft/transform/src/hello_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suresoft/transform/install/hello_moveit
+[4.432s] Invoking command in '/home/suresoft/transform/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/hello_moveit -- -j4 -l4
+[4.473s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[4.561s] [ 50%] [32m[1mLinking CXX executable hello_moveit[0m
+[5.167s] [100%] Built target hello_moveit
+[5.177s] Invoked command in '/home/suresoft/transform/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/hello_moveit -- -j4 -l4
+[5.201s] Invoking command in '/home/suresoft/transform/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/hello_moveit
+[5.208s] -- Install configuration: "Debug"
+[5.208s] -- Execute custom install script
+[5.209s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/lib/hello_moveit/hello_moveit
+[5.217s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[5.226s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[5.234s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[5.243s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[5.252s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/path.sh
+[5.260s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[5.269s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.bash
+[5.277s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.sh
+[5.285s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[5.293s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[5.301s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/package.dsv
+[5.309s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[5.318s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[5.327s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[5.335s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/package.xml
+[5.350s] Invoked command in '/home/suresoft/transform/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/hello_moveit

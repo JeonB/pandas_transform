@@ -1,0 +1,1 @@
+/home/suresoft/transform/build/quick_start/ament_cmake_core/quick_startConfig.cmake

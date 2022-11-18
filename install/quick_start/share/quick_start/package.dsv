@@ -1,0 +1,8 @@
+source;share/quick_start/hook/cmake_prefix_path.ps1
+source;share/quick_start/hook/cmake_prefix_path.dsv
+source;share/quick_start/hook/cmake_prefix_path.sh
+source;share/quick_start/local_setup.bash
+source;share/quick_start/local_setup.dsv
+source;share/quick_start/local_setup.ps1
+source;share/quick_start/local_setup.sh
+source;share/quick_start/local_setup.zsh

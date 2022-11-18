@@ -1,0 +1,23 @@
+[0.031s] Invoking command in '/home/suresoft/transform/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/hello_moveit -- -j4 -l4
+[0.093s] [100%] Built target hello_moveit
+[0.104s] Invoked command in '/home/suresoft/transform/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/hello_moveit -- -j4 -l4
+[0.137s] Invoking command in '/home/suresoft/transform/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/hello_moveit
+[0.145s] -- Install configuration: "Release"
+[0.145s] -- Execute custom install script
+[0.146s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/lib/hello_moveit/hello_moveit
+[0.146s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[0.146s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[0.146s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[0.146s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/path.sh
+[0.147s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[0.147s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.bash
+[0.147s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.sh
+[0.147s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[0.148s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[0.148s] -- Symlinking: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/package.dsv
+[0.156s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[0.156s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[0.157s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[0.157s] -- Up-to-date symlink: /home/suresoft/transform/install/hello_moveit/share/hello_moveit/package.xml
+[0.160s] Invoked command in '/home/suresoft/transform/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/hello_moveit
