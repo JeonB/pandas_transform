@@ -29,7 +29,7 @@ def generate_launch_description():
 def launch_setup(context, *args, **kwargs):
 
     moveit_config = (
-        MoveItConfigsBuilder("moveit_resources_panda")
+        MoveItConfigsBuilder("moveit_resources_panda") #MoveitSetupAssistant로 생성한 config 파일들을 불러오는 클래스
         .robot_description(file_path="config/panda.urdf.xacro")
         .trajectory_execution(file_path="config/gripper_moveit_controllers.yaml")
         .planning_scene_monitor(

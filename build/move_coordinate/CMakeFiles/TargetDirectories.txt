@@ -1,0 +1,10 @@
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/uninstall.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/move_coordinate_uninstall.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/move_coordinate.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/test.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/edit_cache.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/rebuild_cache.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/list_install_components.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/install.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/install/local.dir
+/home/suresoft/transform/build/move_coordinate/CMakeFiles/install/strip.dir

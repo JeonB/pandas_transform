@@ -1,0 +1,54 @@
+[0.031s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.061s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found moveit_ros_planning_interface: 2.5.3 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.227s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.271s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.274s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.284s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.338s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.348s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.409s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.411s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.711s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.884s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.448s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.048s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.315s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.831s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.900s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.900s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/suresoft/transform/src/move_coordinate/include>
+[3.900s] -- Configured cppcheck exclude dirs and/or files: 
+[3.901s] -- Added test 'lint_cmake' to check CMake code style
+[3.902s] -- Added test 'uncrustify' to check C / C++ code style
+[3.902s] -- Configured uncrustify additional arguments: 
+[3.903s] -- Added test 'xmllint' to check XML markup files
+[3.904s] -- Configuring done
+[3.936s] -- Generating done
+[3.940s] -- Build files have been written to: /home/suresoft/transform/build/move_coordinate
+[3.978s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[12.022s] [100%] [32m[1mLinking CXX executable move_coordinate[0m
+[12.316s] [100%] Built target move_coordinate
+[12.328s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[12.357s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/move_coordinate
+[12.365s] -- Install configuration: "Release"
+[12.365s] -- Installing: /home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate
+[12.366s] -- Set runtime path of "/home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate" to ""
+[12.366s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/package_run_dependencies/move_coordinate
+[12.366s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/parent_prefix_path/move_coordinate
+[12.366s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.sh
+[12.366s] -- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.dsv
+[12.367s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.sh
+[12.367s] -- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.dsv
+[12.367s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.bash
+[12.367s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.sh
+[12.367s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.zsh
+[12.368s] -- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.dsv
+[12.368s] -- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv
+[12.368s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/packages/move_coordinate
+[12.368s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig.cmake
+[12.368s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig-version.cmake
+[12.368s] -- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.xml
+[12.376s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/move_coordinate

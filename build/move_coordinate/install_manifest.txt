@@ -1,0 +1,16 @@
+/home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate
+/home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/package_run_dependencies/move_coordinate
+/home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/parent_prefix_path/move_coordinate
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.sh
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.dsv
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.sh
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.dsv
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.bash
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.sh
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.zsh
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.dsv
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv
+/home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/packages/move_coordinate
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig.cmake
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig-version.cmake
+/home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.xml
