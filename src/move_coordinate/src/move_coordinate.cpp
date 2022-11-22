@@ -3,7 +3,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <vector>
-#include <typeinfo>
 
 int main(int argc, char *argv[])
 {
@@ -36,12 +35,13 @@ int main(int argc, char *argv[])
       move_group_interface.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
+  // 시뮬레이션 속도 조절
   move_group_interface.setMaxVelocityScalingFactor(0.3);
   move_group_interface.setMaxAccelerationScalingFactor(0.3);
   while (true)
   {
     char c;
-    std::cout << "\n위치 초기화: R / 좌표 입력: I / 관절각도 입력: O / 프로그램 종료: Q" << std::endl;
+    std::cout << "\n위치 초기화: R / 좌표 입력: I / 프로그램 종료: Q" << std::endl;
 
     std::cin.clear();
     std::cin >> c;
@@ -57,7 +57,6 @@ int main(int argc, char *argv[])
       joint_group_positions[5] = 1.6;
       joint_group_positions[6] = 0.8;
       move_group_interface.setJointValueTarget(joint_group_positions);
-      auto const logger = rclcpp::get_logger("move_coordinate");
       auto const [success, plan] = [&move_group_interface]
       {
         moveit::planning_interface::MoveGroupInterface::Plan msg;
@@ -81,7 +80,9 @@ int main(int argc, char *argv[])
       auto const target_pose = []
       {
         geometry_msgs::msg::Pose msg;
-        msg.orientation.w = 1.0;
+        std::cout << "방향 입력 :";
+        std::cin.clear();
+        std::cin >> msg.orientation.w;
         std::cout << "좌표 입력 :";
         std::cin.clear();
         std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
@@ -111,34 +112,34 @@ int main(int argc, char *argv[])
         RCLCPP_ERROR(logger, "Planning failed!");
       }
     }
-    else if (c == 'o' || c == 'O')
-    {
-      geometry_msgs::msg::Pose msg;
-      msg.orientation.w = 0.1;
-      // joint_group_positions[0] = -1.0; // radians
-      move_group_interface.setJointValueTarget(joint_group_positions);
+    // else if (c == 'o' || c == 'O')
+    // {
+    //   geometry_msgs::msg::Pose msg;
+    //   msg.orientation.w = 0.1;
+    //   // joint_group_positions[0] = -1.0; // radians
+    //   move_group_interface.setJointValueTarget(joint_group_positions);
 
-      for (int i = 0; i < joint_group_positions.size(); i++)
-      {
-        printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
-      }
+    //   for (int i = 0; i < joint_group_positions.size(); i++)
+    //   {
+    //     printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
+    //   }
 
-      auto const [success, plan] = [&move_group_interface]
-      {
-        moveit::planning_interface::MoveGroupInterface::Plan msg;
-        auto const ok = static_cast<bool>(move_group_interface.plan(msg));
-        return std::make_pair(ok, msg);
-      }();
-      // 경로 실행
-      if (success)
-      {
-        move_group_interface.execute(plan);
-      }
-      else
-      {
-        RCLCPP_ERROR(logger, "Planning failed!");
-      }
-    }
+    //   auto const [success, plan] = [&move_group_interface]
+    //   {
+    //     moveit::planning_interface::MoveGroupInterface::Plan msg;
+    //     auto const ok = static_cast<bool>(move_group_interface.plan(msg));
+    //     return std::make_pair(ok, msg);
+    //   }();
+    //   // 경로 실행
+    //   if (success)
+    //   {
+    //     move_group_interface.execute(plan);
+    //   }
+    //   else
+    //   {
+    //     RCLCPP_ERROR(logger, "Planning failed!");
+    //   }
+    // }
     else if (c == 'q' || c == 'Q')
     {
       break; // q
