@@ -1,0 +1,11 @@
+[0.030s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[5.126s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.126s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:86:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[5.126s]    86 |       for ([01;31m[Ki[m[K = 0; i < joint_group_positions.size(); i++)
+[5.126s]       |            [01;31m[K^[m[K
+[8.154s] gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
+[8.154s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+[8.155s] gmake: *** [Makefile:146: all] Error 2
+[8.157s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
