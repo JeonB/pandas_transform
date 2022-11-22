@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o: in function `main':
+move_coordinate.cpp:(.text.startup+0xc11): undefined reference to `tesfFunction()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:342: move_coordinate] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

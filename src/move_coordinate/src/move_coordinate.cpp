@@ -3,9 +3,11 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <vector>
+#include <typeinfo>
 
 int main(int argc, char *argv[])
 {
+
   // Initialize ROS and create the Node
   rclcpp::init(argc, argv);
   auto const node = std::make_shared<rclcpp::Node>(
@@ -34,6 +36,8 @@ int main(int argc, char *argv[])
       move_group_interface.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
+  move_group_interface.setMaxVelocityScalingFactor(0.3);
+  move_group_interface.setMaxAccelerationScalingFactor(0.3);
   while (true)
   {
     char c;
@@ -53,7 +57,7 @@ int main(int argc, char *argv[])
       joint_group_positions[5] = 1.6;
       joint_group_positions[6] = 0.8;
       move_group_interface.setJointValueTarget(joint_group_positions);
-
+      auto const logger = rclcpp::get_logger("move_coordinate");
       auto const [success, plan] = [&move_group_interface]
       {
         moveit::planning_interface::MoveGroupInterface::Plan msg;
@@ -140,6 +144,7 @@ int main(int argc, char *argv[])
       break; // q
     }
   }
+
   // Shutdown ROS
   rclcpp::shutdown();
   return 0;

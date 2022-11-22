@@ -1,0 +1,22 @@
+[0.034s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[5.220s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.220s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:76:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.220s]    76 |       for (int i = 0; [01;35m[Ki < joint_group_positions.size()[m[K; i++)
+[5.220s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.224s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:106:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.224s]   106 |       for (int i = 0; [01;35m[Ki < joint_group_positions.size()[m[K; i++)
+[5.224s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.225s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K At global scope:
+[5.225s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:137:19:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[5.226s]   137 | void tesfFunction([01;35m[Kauto[m[K move_group_interface)
+[5.226s]       |                   [01;35m[K^~~~[m[K
+[8.665s] [100%] [32m[1mLinking CXX executable move_coordinate[0m
+[8.959s] /usr/bin/ld: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o: in function `main':
+[8.959s] move_coordinate.cpp:(.text.startup+0xbb1): undefined reference to `tesfFunction()'
+[8.982s] collect2: error: ld returned 1 exit status
+[8.986s] gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:342: move_coordinate] Error 1
+[8.987s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+[8.987s] gmake: *** [Makefile:146: all] Error 2
+[8.991s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
