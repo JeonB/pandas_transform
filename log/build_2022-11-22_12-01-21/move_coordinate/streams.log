@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[9.939s] [100%] [32m[1mLinking CXX executable move_coordinate[0m
+[10.242s] [100%] Built target move_coordinate
+[10.254s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[10.290s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/move_coordinate
+[10.297s] -- Install configuration: "Release"
+[10.299s] -- Execute custom install script
+[10.300s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate
+[10.301s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/package_run_dependencies/move_coordinate
+[10.301s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/parent_prefix_path/move_coordinate
+[10.302s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.sh
+[10.302s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.dsv
+[10.302s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.sh
+[10.302s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.dsv
+[10.303s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.bash
+[10.303s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.sh
+[10.303s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.zsh
+[10.304s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.dsv
+[10.304s] -- Symlinking: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv
+[10.312s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/packages/move_coordinate
+[10.312s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig.cmake
+[10.312s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig-version.cmake
+[10.312s] -- Up-to-date symlink: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.xml
+[10.321s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/move_coordinate
