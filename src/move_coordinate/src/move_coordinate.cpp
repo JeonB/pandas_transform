@@ -16,38 +16,52 @@ int main(int argc, char *argv[])
   // Create the MoveIt MoveGroup Interface
   using moveit::planning_interface::MoveGroupInterface;
   auto move_group_interface = MoveGroupInterface(node, "panda_arm");
-
+  char c;
   while (true)
   {
+    std::cout << "좌표 입력: R / 관절각도 입력: T / 프로그램 종료: Q" << std::endl;
 
-    // Set a target Pose
-    auto const target_pose = []
+    std::cin.clear();
+    std::cin >> c;
+    if (c == 'q' || c == 'Q')
     {
-      geometry_msgs::msg::Pose msg;
-      msg.orientation.w = 1.0;
-      std::cout << "좌표 입력 :";
-      std::cin.clear();
-      std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
-      return msg;
-    }();
-    move_group_interface.setPoseTarget(target_pose);
-
-    // Create a plan to that target pose
-    auto const [success, plan] = [&move_group_interface]
-    {
-      moveit::planning_interface::MoveGroupInterface::Plan msg;
-      auto const ok = static_cast<bool>(move_group_interface.plan(msg));
-      return std::make_pair(ok, msg);
-    }();
-
-    // Execute the plan
-    if (success)
-    {
-      move_group_interface.execute(plan);
+      break; // q
     }
-    else
+    else if (c == 't' || c == 'T')
     {
-      RCLCPP_ERROR(logger, "Planning failed!");
+      printf("test");
+    }
+    else if (c == 'r' || c == 'R')
+    {
+
+      // Set a target Pose
+      auto const target_pose = []
+      {
+        geometry_msgs::msg::Pose msg;
+        msg.orientation.w = 1.0;
+        std::cout << "좌표 입력 :";
+        std::cin.clear();
+        std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
+        return msg;
+      }();
+      move_group_interface.setPoseTarget(target_pose);
+
+      // Create a plan to that target pose
+      auto const [success, plan] = [&move_group_interface]
+      {
+        moveit::planning_interface::MoveGroupInterface::Plan msg;
+        auto const ok = static_cast<bool>(move_group_interface.plan(msg));
+        return std::make_pair(ok, msg);
+      }();
+      // Execute the plan
+      if (success)
+      {
+        move_group_interface.execute(plan);
+      }
+      else
+      {
+        RCLCPP_ERROR(logger, "Planning failed!");
+      }
     }
   }
   // Shutdown ROS

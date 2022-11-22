@@ -309,3 +309,48 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install("TARGETS" "move_coordinate" "DESTINATION" "lib/move_coordinate")
+include("/home/suresoft/transform/build/move_coordinate/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_coordinate" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_coordinate" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/move_coordinate" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/move_coordinate" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/move_coordinate/environment")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/move_coordinate/environment")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/move_coordinate/environment")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/move_coordinate/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/move_coordinate/environment")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/move_coordinate/environment")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/move_coordinate/environment")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/move_coordinate/environment")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/move_coordinate")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/move_coordinate")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/move_coordinate")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/move_coordinate")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/move_coordinate")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/move_coordinate")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/move_coordinate")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/move_coordinate")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/move_coordinate")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/move_coordinate")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_index/share/ament_index/resource_index/packages/move_coordinate" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_index/share/ament_index/resource_index/packages/move_coordinate" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_core/move_coordinateConfig.cmake" "/home/suresoft/transform/build/move_coordinate/ament_cmake_core/move_coordinateConfig-version.cmake" "DESTINATION" "share/move_coordinate/cmake")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/build/move_coordinate/ament_cmake_core/move_coordinateConfig.cmake" "/home/suresoft/transform/build/move_coordinate/ament_cmake_core/move_coordinateConfig-version.cmake" "DESTINATION" "share/move_coordinate/cmake")
+
+# install(FILES "/home/suresoft/transform/src/move_coordinate/package.xml" "DESTINATION" "share/move_coordinate")
+ament_cmake_symlink_install_files("/home/suresoft/transform/src/move_coordinate" FILES "/home/suresoft/transform/src/move_coordinate/package.xml" "DESTINATION" "share/move_coordinate")
