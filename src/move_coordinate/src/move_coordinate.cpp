@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   using moveit::planning_interface::MoveGroupInterface;
   auto move_group_interface = MoveGroupInterface(node, PLANNING_GROUP);
 
-  // 로봇의 현재 상태 생성 (각,속도,돌림힘의 현재 상태 출력하는데 필요)
+  // 로봇의 현재 상태 참조하는 포인터 생성 (각,속도,돌림힘의 현재 상태 출력하는데 필요)
   moveit::core::RobotStatePtr current_state = move_group_interface.getCurrentState(10);
   std::vector<double> joint_group_positions;
   const moveit::core::JointModelGroup *joint_model_group =
