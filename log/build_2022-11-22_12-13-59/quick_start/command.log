@@ -1,4 +1,0 @@
-Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
-Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
-Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start
-Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start

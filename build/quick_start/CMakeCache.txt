@@ -100,13 +100,9 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//For backwards compatibility, what version of CMake commands and
-// syntax should this version of CMake try to support.
-CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
-
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -305,9 +301,6 @@ CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
 
-//Single output directory for building all executables.
-EXECUTABLE_OUTPUT_PATH:PATH=
-
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/share/eigen3/cmake
 
@@ -365,9 +358,6 @@ LIBDW_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 LIBDW_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libdw.so
 
-//Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=
-
 //Enable all warnings used by CI
 MOVEIT_CI_WARNINGS:BOOL=ON
 
@@ -412,15 +402,6 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/suresoft/transform/build/quick_start
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/suresoft/transform/src/quick_start
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
@@ -935,9 +916,6 @@ moveit_ros_warehouse_DIR:PATH=/opt/ros/humble/share/moveit_ros_warehouse/cmake
 //The directory containing a CMake configuration file for moveit_servo.
 moveit_servo_DIR:PATH=/opt/ros/humble/share/moveit_servo/cmake
 
-//The directory containing a CMake configuration file for moveit_task_constructor_core.
-moveit_task_constructor_core_DIR:PATH=moveit_task_constructor_core_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for moveit_visual_tools.
 moveit_visual_tools_DIR:PATH=/opt/ros/humble/share/moveit_visual_tools/cmake
 
@@ -1213,7 +1191,7 @@ BACKWARD_INCLUDE_DIRS:INTERNAL=/usr/include;/opt/ros/humble/share/backward_ros/c
 //ADVANCED property for variable: BACKWARD_LIBRARIES
 BACKWARD_LIBRARIES-ADVANCED:INTERNAL=1
 //BACKWARD_LIBRARIES
-BACKWARD_LIBRARIES:INTERNAL=/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so
+BACKWARD_LIBRARIES:INTERNAL=/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so
 //ADVANCED property for variable: BULLET_COLLISION_LIBRARY
 BULLET_COLLISION_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BULLET_COLLISION_LIBRARY_DEBUG
@@ -1398,7 +1376,7 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding Backward
-FIND_PACKAGE_MESSAGE_DETAILS_Backward:INTERNAL=[/opt/ros/humble/share/backward_ros/cmake][/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Backward:INTERNAL=[/opt/ros/humble/share/backward_ros/cmake][/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so][v()]
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: thread ][v1.74.0()]
 //Details about finding Eigen3

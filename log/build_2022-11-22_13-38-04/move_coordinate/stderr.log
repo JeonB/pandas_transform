@@ -1,7 +1,0 @@
-[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:86:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
-   86 |       for ([01;31m[Ki[m[K = 0; i < joint_group_positions.size(); i++)
-      |            [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
