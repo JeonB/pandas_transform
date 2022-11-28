@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
         geometry_msgs::msg::Pose msg;
         std::cout << "방향 입력 :";
         std::cin.clear();
-        std::cin >> msg.orientation.w;
+        std::cin >> msg.orientation.z;
         std::cout << "좌표 입력 :";
         std::cin.clear();
         std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
