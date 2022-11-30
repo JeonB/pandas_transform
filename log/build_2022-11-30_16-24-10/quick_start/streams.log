@@ -1,0 +1,27 @@
+[0.032s] Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
+[0.108s] Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
+[0.163s] Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start
+[0.176s] -- Install configuration: "Release"
+[0.177s] -- Execute custom install script
+[0.178s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/demo.launch.py
+[0.178s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_hello_moveit.rviz
+[0.178s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_moveit_config_demo.rviz
+[0.178s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_moveit_config_demo_empty.rviz
+[0.179s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/package_run_dependencies/quick_start
+[0.179s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/parent_prefix_path/quick_start
+[0.179s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/path.sh
+[0.181s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/environment/path.dsv
+[0.181s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.bash
+[0.181s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.sh
+[0.182s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.zsh
+[0.182s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.dsv
+[0.183s] -- Symlinking: /home/suresoft/transform/install/quick_start/share/quick_start/package.dsv
+[0.194s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/packages/quick_start
+[0.194s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.195s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.195s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/quick_startConfig.cmake
+[0.195s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/quick_startConfig-version.cmake
+[0.196s] -- Up-to-date symlink: /home/suresoft/transform/install/quick_start/share/quick_start/package.xml
+[0.200s] Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start

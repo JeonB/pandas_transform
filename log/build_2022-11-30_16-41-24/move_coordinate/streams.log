@@ -1,0 +1,23 @@
+[0.046s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[0.214s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[7.632s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.632s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:102:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::execute()[m[K’
+[7.632s]   102 |         [01;31m[Kmove_group_interface.execute()[m[K;
+[7.632s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.632s] In file included from [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:4[m[K:
+[7.632s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:729:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::execute(const moveit::planning_interface::MoveGroupInterface::Plan&)[m[K’
+[7.632s]   729 |   moveit::core::MoveItErrorCode [01;36m[Kexecute[m[K(const Plan& plan);
+[7.633s]       |                                 [01;36m[K^~~~~~~[m[K
+[7.635s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:729:33:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.635s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:732:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::execute(const RobotTrajectory&)[m[K’
+[7.635s]   732 |   moveit::core::MoveItErrorCode [01;36m[Kexecute[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory);
+[7.635s]       |                                 [01;36m[K^~~~~~~[m[K
+[7.635s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:732:33:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.635s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:103:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.636s]   103 |         for (int i = 0; [01;35m[Ki < joint_group_positions.size()[m[K; i++)
+[7.636s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.980s] gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
+[10.981s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+[10.981s] gmake: *** [Makefile:146: all] Error 2
+[10.983s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4

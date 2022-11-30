@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:29:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   29 |   auto move_group_interface = MoveGroupInterface([01;31m[Knode[m[K, PLANNING_GROUP);
+      |                                                  [01;31m[K^~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In lambda function:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:63:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+   63 |         auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:60:58:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   60 |       auto const [success, plan] = [&move_group_interface[01;36m[K][m[K
+      |                                                          [01;36m[K^[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:29:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   29 |   auto [01;36m[Kmove_group_interface[m[K = MoveGroupInterface(node, PLANNING_GROUP);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:92:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |       for (int i = 0; [01;35m[Ki < joint_group_positions.size()[m[K; i++)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In lambda function:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:101:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+  101 |         auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:98:58:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   98 |       auto const [success, plan] = [&move_group_interface[01;36m[K][m[K
+      |                                                          [01;36m[K^[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:29:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   29 |   auto [01;36m[Kmove_group_interface[m[K = MoveGroupInterface(node, PLANNING_GROUP);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:7:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | int main([01;35m[Kint argc[m[K, char *argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:7:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | int main(int argc, [01;35m[Kchar *argv[][m[K)
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

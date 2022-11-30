@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
   auto const node = std::make_shared<rclcpp::Node>(
       "move_coordinate", rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true));
 
-  //로봇의 상태 정보 획득을 위한 SingleThreadedExecutor 가동
+  // //로봇의 상태 정보 획득을 위한 SingleThreadedExecutor 가동
   rclcpp::executors::SingleThreadedExecutor executor;
   executor.add_node(node);
   std::thread([&executor]()
@@ -36,8 +36,8 @@ int main(int argc, char *argv[])
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
   // 시뮬레이션 속도 조절
-  move_group_interface.setMaxVelocityScalingFactor(0.3);
-  move_group_interface.setMaxAccelerationScalingFactor(0.3);
+  move_group_interface.setMaxVelocityScalingFactor(0.5);
+  move_group_interface.setMaxAccelerationScalingFactor(0.4);
   while (true)
   {
     char c;
@@ -49,13 +49,13 @@ int main(int argc, char *argv[])
     if (c == 'r' || c == 'R')
     {
 
-      joint_group_positions[0] = 0.0;
-      joint_group_positions[1] = -0.8;
-      joint_group_positions[2] = 0.0;
-      joint_group_positions[3] = -2.4;
-      joint_group_positions[4] = 0.0;
-      joint_group_positions[5] = 1.6;
-      joint_group_positions[6] = 0.8;
+      // joint_group_positions[0] = 0.0;
+      // joint_group_positions[1] = -0.8;
+      // joint_group_positions[2] = 0.0;
+      // joint_group_positions[3] = -2.4;
+      // joint_group_positions[4] = 0.0;
+      // joint_group_positions[5] = 1.6;
+      // joint_group_positions[6] = 0.8;
       move_group_interface.setJointValueTarget(joint_group_positions);
       auto const [success, plan] = [&move_group_interface]
       {
@@ -75,7 +75,6 @@ int main(int argc, char *argv[])
     }
     else if (c == 'i' || c == 'I')
     {
-
       // 목표 좌표 세팅
       auto const target_pose = []
       {
@@ -88,14 +87,8 @@ int main(int argc, char *argv[])
         std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
         return msg;
       }();
-      //해당 좌표에 대한 관절 각도 출력
-      for (int i = 0; i < joint_group_positions.size(); i++)
-      {
-        printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
-      }
-      move_group_interface.setPoseTarget(target_pose);
-
       // 목표 좌표에 대한 경로 생성
+      move_group_interface.setPoseTarget(target_pose);
       auto const [success, plan] = [&move_group_interface]
       {
         moveit::planning_interface::MoveGroupInterface::Plan msg;
@@ -105,7 +98,13 @@ int main(int argc, char *argv[])
       // 경로 실행
       if (success)
       {
-        move_group_interface.execute(plan);
+
+        move_group_interface.execute();
+        for (int i = 0; i < joint_group_positions.size(); i++)
+        {
+          //해당 좌표에 대한 관절 각도 출력
+          printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
+        }
       }
       else
       {

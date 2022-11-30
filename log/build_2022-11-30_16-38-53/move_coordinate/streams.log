@@ -1,0 +1,15 @@
+[0.044s] Invoking command in '/home/suresoft/transform/build/move_coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[8.415s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.415s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:99:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+[8.415s]    99 |       if ([01;31m[Ksuccess[m[K)
+[8.415s]       |           [01;31m[K^~~~~~~[m[K
+[8.415s]       |           [32m[Keaccess[m[K
+[8.416s] [01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:103:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.416s]   103 |         for (int i = 0; [01;35m[Ki < joint_group_positions.size()[m[K; i++)
+[8.416s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.449s] gmake[2]: *** [CMakeFiles/move_coordinate.dir/build.make:76: CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o] Error 1
+[11.450s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_coordinate.dir/all] Error 2
+[11.450s] gmake: *** [Makefile:146: all] Error 2
+[11.453s] Invoked command in '/home/suresoft/transform/build/move_coordinate' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/move_coordinate -- -j4 -l4
