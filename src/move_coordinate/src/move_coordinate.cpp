@@ -49,13 +49,13 @@ int main(int argc, char *argv[])
     if (c == 'r' || c == 'R')
     {
 
-      // joint_group_positions[0] = 0.0;
-      // joint_group_positions[1] = -0.8;
-      // joint_group_positions[2] = 0.0;
-      // joint_group_positions[3] = -2.4;
-      // joint_group_positions[4] = 0.0;
-      // joint_group_positions[5] = 1.6;
-      // joint_group_positions[6] = 0.8;
+      joint_group_positions[0] = 0.0;
+      joint_group_positions[1] = -0.8;
+      joint_group_positions[2] = 0.0;
+      joint_group_positions[3] = -2.4;
+      joint_group_positions[4] = 0.0;
+      joint_group_positions[5] = 1.6;
+      joint_group_positions[6] = 0.8;
       move_group_interface.setJointValueTarget(joint_group_positions);
       auto const [success, plan] = [&move_group_interface]
       {
@@ -75,6 +75,7 @@ int main(int argc, char *argv[])
     }
     else if (c == 'i' || c == 'I')
     {
+      move_group_interface.stop();
       // 목표 좌표 세팅
       auto const target_pose = []
       {
@@ -98,17 +99,16 @@ int main(int argc, char *argv[])
       // 경로 실행
       if (success)
       {
-
         move_group_interface.execute(plan);
+        for (int i = 0; i < joint_group_positions.size(); i++)
+        {
+          //해당 좌표에 대한 관절 각도 출력
+          printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
+        }
       }
       else
       {
         RCLCPP_ERROR(logger, "Planning failed!");
-      }
-      for (int i = 0; i < joint_group_positions.size(); i++)
-      {
-        //해당 좌표에 대한 관절 각도 출력
-        printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
       }
     }
     // else if (c == 'o' || c == 'O')
