@@ -1,1 +1,0 @@
-/home/suresoft/transform/build/move_coordinate/ament_cmake_core/move_coordinateConfig-version.cmake

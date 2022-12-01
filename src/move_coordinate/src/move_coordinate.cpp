@@ -99,16 +99,16 @@ int main(int argc, char *argv[])
       if (success)
       {
 
-        move_group_interface.execute();
-        for (int i = 0; i < joint_group_positions.size(); i++)
-        {
-          //해당 좌표에 대한 관절 각도 출력
-          printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
-        }
+        move_group_interface.execute(plan);
       }
       else
       {
         RCLCPP_ERROR(logger, "Planning failed!");
+      }
+      for (int i = 0; i < joint_group_positions.size(); i++)
+      {
+        //해당 좌표에 대한 관절 각도 출력
+        printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
       }
     }
     // else if (c == 'o' || c == 'O')
