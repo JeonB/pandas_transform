@@ -7,7 +7,7 @@
 int main(int argc, char *argv[])
 {
 
-  // Initialize ROS and create the Node
+  // ROS 초기화 및 노드 생성
   rclcpp::init(argc, argv);
   auto const node = std::make_shared<rclcpp::Node>(
       "move_coordinate", rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true));
