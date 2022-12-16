@@ -3,24 +3,29 @@
 ### 다음 순서대로 터미널에 입력할 것
 ---
 
+#### Moveit2, control, controllers 패키지 install 
     sudo apt update && sudo apt upgrade
     sudo apt install ros-humble-moveit
     sudo apt install ros-humble-moveit-*
     sudo apt install ros-humble-ros2-control
     sudo apt install ros-humble-ros2-controllers
     
+---
+
+#### 좌표변환 코드 클론 및 빌드
     git clone https://github.com/JeonB/transform.git
     cd transform
     colcon build --mixin release
     source ~/transform/install/local_setup.bash
     
-    //터미널 1
+---
+
+ #### 실행
+    #터미널 1
     ros2 launch quick_start demo.launch
     
-    //터미널 2
+    #터미널 2
     ros2 run move_coordinate move_coordinate
-    
-    
     
 ---
 시뮬레이션이 작동하다가 멈추거나 joint값이 제대로 안 나올 시 왼쪽 하단의 reset 버튼 누를 것
