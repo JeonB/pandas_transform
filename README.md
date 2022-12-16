@@ -28,5 +28,7 @@
     ros2 run move_coordinate move_coordinate
     
 ---
+
+#### 주의사항
 시뮬레이션이 작동하다가 멈추거나 joint값이 제대로 안 나올 시 왼쪽 하단의 reset 버튼 누를 것
     
