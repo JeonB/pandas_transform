@@ -6,6 +6,9 @@
     sudo apt update && sudo apt upgrade
     sudo apt install ros-humble-moveit
     sudo apt install ros-humble-moveit-*
+    sudo apt install ros-humble-ros2-control
+    sudo apt install ros-humble-ros2-controllers
+    
     git clone https://github.com/JeonB/transform.git
     cd transform
     colcon build --mixin release
