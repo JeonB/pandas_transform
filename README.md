@@ -16,7 +16,9 @@
     git clone https://github.com/JeonB/transform.git
     cd transform
     colcon build --mixin release
-    source ~/transform/install/local_setup.bash
+    source ~/transform/install/local_setup.bash # 터미널1,2 모두 입력해야 합니다.
+    # .bashrc 파일에 입력해서 매번 입력하는 번거로움을 피할 수 있습니다. 
+    # gedit .bashrc
     
 ---
 
