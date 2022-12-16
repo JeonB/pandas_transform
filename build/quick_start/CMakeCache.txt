@@ -1191,7 +1191,7 @@ BACKWARD_INCLUDE_DIRS:INTERNAL=/usr/include;/opt/ros/humble/share/backward_ros/c
 //ADVANCED property for variable: BACKWARD_LIBRARIES
 BACKWARD_LIBRARIES-ADVANCED:INTERNAL=1
 //BACKWARD_LIBRARIES
-BACKWARD_LIBRARIES:INTERNAL=/usr/lib/x86_64-linux-gnu/libdw.so
+BACKWARD_LIBRARIES:INTERNAL=/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so
 //ADVANCED property for variable: BULLET_COLLISION_LIBRARY
 BULLET_COLLISION_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BULLET_COLLISION_LIBRARY_DEBUG
@@ -1376,7 +1376,7 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding Backward
-FIND_PACKAGE_MESSAGE_DETAILS_Backward:INTERNAL=[/opt/ros/humble/share/backward_ros/cmake][/usr/lib/x86_64-linux-gnu/libdw.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Backward:INTERNAL=[/opt/ros/humble/share/backward_ros/cmake][/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so][v()]
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: thread ][v1.74.0()]
 //Details about finding Eigen3
@@ -1761,5 +1761,5 @@ pkgcfg_lib_PKG_FONTCONFIG_freetype-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
 

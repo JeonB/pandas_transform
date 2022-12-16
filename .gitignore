@@ -1,0 +1,6 @@
+# src파일만 올릴 것
+
+build/
+log/
+install
+.vscode
