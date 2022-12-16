@@ -1,0 +1,9 @@
+/home/suresoft/transform/build/quick_start/CMakeFiles/uninstall.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/quick_start_uninstall.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/test.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/edit_cache.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/rebuild_cache.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/list_install_components.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/install.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/install/local.dir
+/home/suresoft/transform/build/quick_start/CMakeFiles/install/strip.dir

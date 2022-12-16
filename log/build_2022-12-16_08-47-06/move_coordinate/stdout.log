@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found moveit_ros_planning_interface: 2.5.3 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/suresoft/transform/src/move_coordinate/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/suresoft/transform/build/move_coordinate
+[ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_coordinate[0m
+[100%] Built target move_coordinate
+-- Install configuration: "Release"
+-- Installing: /home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate
+-- Set runtime path of "/home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate" to ""
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/package_run_dependencies/move_coordinate
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/parent_prefix_path/move_coordinate
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.sh
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.dsv
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.sh
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.dsv
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.bash
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.sh
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.zsh
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.dsv
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/packages/move_coordinate
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig.cmake
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig-version.cmake
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.xml

@@ -1,0 +1,115 @@
+[0.020s] Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/suresoft/transform/src/quick_start -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/suresoft/transform/install/quick_start
+[0.248s] -- The C compiler identification is GNU 11.3.0
+[0.453s] -- The CXX compiler identification is GNU 11.3.0
+[0.464s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.551s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.552s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.637s] -- Detecting CXX compiler ABI info - done
+[0.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.646s] -- Detecting CXX compile features - done
+[0.652s] -- Found moveit_common: 2.5.3 (/opt/ros/humble/share/moveit_common/cmake)
+[0.655s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.847s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.053s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.059s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.060s] -- BACKWARD_HAS_UNWIND=1
+[1.060s] -- BACKWARD_HAS_BACKTRACE=0
+[1.060s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.060s] -- BACKWARD_HAS_DW=1
+[1.060s] -- BACKWARD_HAS_BFD=0
+[1.061s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.322s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[1.326s] -- Found control_msgs: 4.1.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.360s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.365s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.374s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.037s] -- Found moveit_core: 2.5.3 (/opt/ros/humble/share/moveit_core/cmake)
+[2.066s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.092s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.209s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.215s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.323s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.359s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.450s] -- Found Threads: TRUE  
+[2.822s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.269s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.269s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.430s] -- Found moveit_ros_planning: 2.5.3 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[4.435s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.121s] -- Found moveit_ros_planning_interface: 2.5.3 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[5.126s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.342s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.618s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.160s] -- Found moveit_ros_perception: 2.5.3 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[6.164s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[6.754s] -- Found moveit_servo: 2.5.3 (/opt/ros/humble/share/moveit_servo/cmake)
+[7.389s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[7.405s] -- Found rviz_visual_tools: 4.1.3 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[7.556s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[7.558s] -- Found OGRE
+[7.558s] --   static     : OFF
+[7.558s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[7.558s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.559s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[7.559s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[7.559s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[7.559s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.559s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[7.559s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.559s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.559s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.560s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.580s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[7.586s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[7.688s] -- Found X11: /usr/include   
+[7.689s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.800s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.801s] -- Looking for gethostbyname
+[7.921s] -- Looking for gethostbyname - found
+[7.921s] -- Looking for connect
+[8.024s] -- Looking for connect - found
+[8.025s] -- Looking for remove
+[8.127s] -- Looking for remove - found
+[8.128s] -- Looking for shmat
+[8.234s] -- Looking for shmat - found
+[8.234s] -- Looking for IceConnectionNumber in ICE
+[8.343s] -- Looking for IceConnectionNumber in ICE - found
+[8.345s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[8.346s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[9.042s] -- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[9.637s] -- Configuring done
+[9.646s] -- Generating done
+[9.648s] -- Build files have been written to: /home/suresoft/transform/build/quick_start
+[9.665s] Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/suresoft/transform/src/quick_start -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/suresoft/transform/install/quick_start
+[9.667s] Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
+[9.709s] Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suresoft/transform/build/quick_start -- -j4 -l4
+[9.740s] Invoking command in '/home/suresoft/transform/build/quick_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start
+[9.746s] -- Install configuration: "Release"
+[9.746s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/launch
+[9.746s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/launch/demo.launch.py
+[9.746s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/launch/panda_moveit_config_demo.rviz
+[9.746s] -- Installing: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/package_run_dependencies/quick_start
+[9.747s] -- Installing: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/parent_prefix_path/quick_start
+[9.747s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/environment/ament_prefix_path.sh
+[9.747s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/environment/ament_prefix_path.dsv
+[9.747s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/environment/path.sh
+[9.747s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/environment/path.dsv
+[9.747s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.bash
+[9.748s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.sh
+[9.748s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.zsh
+[9.748s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/local_setup.dsv
+[9.748s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/package.dsv
+[9.748s] -- Installing: /home/suresoft/transform/install/quick_start/share/ament_index/resource_index/packages/quick_start
+[9.748s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.749s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.749s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/quick_startConfig.cmake
+[9.749s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/cmake/quick_startConfig-version.cmake
+[9.749s] -- Installing: /home/suresoft/transform/install/quick_start/share/quick_start/package.xml
+[9.752s] Invoked command in '/home/suresoft/transform/build/quick_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suresoft/transform/build/quick_start

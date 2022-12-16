@@ -1,0 +1,4 @@
+source;share/quick_start/local_setup.bash
+source;share/quick_start/local_setup.dsv
+source;share/quick_start/local_setup.sh
+source;share/quick_start/local_setup.zsh

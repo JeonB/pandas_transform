@@ -79,10 +79,8 @@ int main(int argc, char *argv[])
       // 목표 좌표 세팅
       auto const target_pose = []
       {
-        geometry_msgs::msg::Pose msg;
-        std::cout << "방향 입력 :";
-        std::cin.clear();
-        std::cin >> msg.orientation.z;
+        geometry_msgs::msg::Pose msg;       
+        msg.orientation.w = 1;
         std::cout << "좌표 입력 :";
         std::cin.clear();
         std::cin >> msg.position.x >> msg.position.y >> msg.position.z;
@@ -100,11 +98,7 @@ int main(int argc, char *argv[])
       if (success)
       {
         move_group_interface.execute(plan);
-        for (int i = 0; i < joint_group_positions.size(); i++)
-        {
-          //해당 좌표에 대한 관절 각도 출력
-          printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
-        }
+    
       }
       else
       {
@@ -143,6 +137,11 @@ int main(int argc, char *argv[])
     {
       break; // q
     }
+     for (int i = 0; i < 7; i++)
+      {
+          //해당 좌표에 대한 관절 각도 출력
+          printf("joint[%d] : %0.1lf\n", i, joint_group_positions[i]);
+      }
   }
 
   // Shutdown ROS

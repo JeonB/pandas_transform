@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target move_coordinate[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_coordinate.dir/src/move_coordinate.cpp.o[0m
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/suresoft/transform/src/move_coordinate/src/move_coordinate.cpp:100:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  100 |         for (int i = 0; [01;35m[Ki < joint_group_positions.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable move_coordinate[0m
+[100%] Built target move_coordinate
+-- Install configuration: "Release"
+-- Installing: /home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate
+-- Set runtime path of "/home/suresoft/transform/install/move_coordinate/lib/move_coordinate/move_coordinate" to ""
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/package_run_dependencies/move_coordinate
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/parent_prefix_path/move_coordinate
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.sh
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.sh
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/environment/path.dsv
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.bash
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.sh
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.zsh
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/local_setup.dsv
+-- Installing: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.dsv
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/ament_index/resource_index/packages/move_coordinate
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig.cmake
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/cmake/move_coordinateConfig-version.cmake
+-- Up-to-date: /home/suresoft/transform/install/move_coordinate/share/move_coordinate/package.xml
