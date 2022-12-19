@@ -26,7 +26,7 @@
 
  #### 실행
     #터미널 1
-    ros2 launch quick_start demo.launch
+    ros2 launch quick_start demo.launch.py
     
     #터미널 2
     ros2 run move_coordinate move_coordinate
